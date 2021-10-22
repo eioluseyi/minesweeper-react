@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  border: 1px solid #ccc;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: grey;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.grid div.checked._1 {
+  color: violet;
+}
+.grid div.checked._2 {
+  color: indigo;
+}
+.grid div.checked._3 {
+  color: blue;
+}
+.grid div.checked._4 {
+  color: green;
+}
+.grid div.checked._5 {
+  color: yellow;
+}
+.grid div.checked._6 {
+  color: orange;
+}
+.grid div.checked._7 {
+  color: red;
+}
+
+.message {
+  font-weight: 700;
+  font-size: 20px;
+  color: grey;
+  padding: 30px;
+}
+
+.message button {
+  padding: 10px 20px;
+  color: #333;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid #ffa500;
+  background-color: #ffb510;
+  border-radius: 4px;
+}
+
+.message button:hover {
+  background-color: #ffa500;
+}
+
+.bomb.active {
+  background-color: red;
+}
+
+.checked {
+  background-color: #ddd;
+}
